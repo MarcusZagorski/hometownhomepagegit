@@ -1,0 +1,202 @@
+﻿@font-face {
+    src: url("imprima.ttf");
+    font-family: imprima;
+}
+
+body {
+    font-family: imprima;
+    background-color: #64808D;
+    text-shadow: 0 0 10px black;
+}
+
+#bkgroundimg {
+    background-image: url(birminghamcityy.png);
+    background-size: cover;
+    width: 1920px;
+    height: 268px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#visit {
+    background-color: #64808DE5;
+    margin: -160px 0 5px 0;
+    padding: 17px 50px;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 0.365em;
+    color: #FFFFFF;
+}
+
+#come {
+    background-color: #64808DE5;
+    margin: 20px 0 40px 0;
+    padding: 7px 30px;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#top3 {
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    margin: 24px;
+    color: #1B1614;
+}
+
+#cadbury {
+    background-image: url("cadbury-world.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 162px;
+}
+
+#custard {
+    background-image: url("custard-factory.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    display: flex;
+    margin: -150px auto 0 auto;
+}
+
+#sealife {
+    background-image: url("sealife.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    display: flex;
+    text-align: end;
+    margin: -150px 0 0 1612px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#cadheader {
+    margin: 0 0 0 149px;
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #1B1614;
+    padding: 19px 0 0 0;   
+}
+
+#cadpara {
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1B1614;
+    margin: 0 0 0 120px;
+    padding: 5px 0 0 0;
+}
+
+#cusfac {
+    margin: 0 0 0 149px;
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #1B1614;
+    margin: 0 0 0 516px;
+    padding: 19px 0 0 0;
+}
+
+#cusfacpara {
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1B1614;
+    margin: 0 0 0 483px;
+    padding: 5px 0 0 0;
+}
+
+#natsea {
+    margin: 0 0 0 149px;
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #1B1614;
+    margin: 0 0 0 485px;
+    padding: 19px 0 0 0;
+}
+
+#natseapara {
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1B1614;
+    margin: 0 100px 0 491px;
+    padding: 5px 0 0 ;
+}
+
+#guidebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto 0 auto;
+    width: 500px;
+    height: 235px;
+    background-image: linear-gradient(#64808D, #C5DBE4);
+    border-radius: 15px;
+    
+}
+
+#marcus {
+    background-image: url(marcus.jpg);
+    width: 174px;
+    height: 230px;
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 4px 2px;
+}
+
+#guidetext {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: -240px 0 0 180px;
+}
